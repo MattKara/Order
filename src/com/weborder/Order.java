@@ -17,6 +17,8 @@ public class Order {
 		driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("test");
 		
 		driver.findElement(By.id("ctl00_MainContent_login_button")).click();
+		
+		driver.close();
 
 	}
 
